@@ -27,9 +27,9 @@ jobs:
       - name: Git clone
         uses: actions/checkout@v5
       - name: Build from Dockerfile
-        run: docker build -t movesrwth/stormpy-starter . --build-arg STORMPY_BASE=movesrwth/stormpy:${{ matrix.config.stormpyImg }}
+        run: docker build -t stormchecker/stormpy-starter . --build-arg STORMPY_BASE=movesrwth/stormpy:${{ matrix.config.stormpyImg }}
       - name: Run Docker
-        run: docker run -d -it --name ci -p 8888:8888 movesrwth/stormpy-starter
+        run: docker run -d -it --name ci -p 8888:8888 stormchecker/stormpy-starter
       - name: Run tests
         run: |
           docker exec ci bash -c "pip install .[test]; pytest"

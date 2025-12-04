@@ -1,7 +1,7 @@
 # storm-project-starter-python
 Starter project for the Python API of Storm via Stormpy
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/moves-rwth/storm-project-starter-python/master?filepath=stormpy_starter.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stormchecker/storm-project-starter-python/master?filepath=stormpy_starter.ipynb)
 
 ## Getting started
 Before starting, make sure that Storm and stormpy are installed. If not, see the [documentation](https://moves-rwth.github.io/stormpy/installation.html) for details on how to install stormpy.
@@ -27,17 +27,17 @@ The answer should be yes.
 ## Try out in browser via Jupyterlab
 You can also try out the starter project in your browser by using Jupyterlab.
 
-You can use this [Binder link](https://mybinder.org/v2/gh/moves-rwth/storm-project-starter-python/master?filepath=stormpy_starter.ipynb) which starts an interactive Jupyter notebook.
+You can use this [Binder link](https://mybinder.org/v2/gh/stormchecker/storm-project-starter-python/master?filepath=stormpy_starter.ipynb) which starts an interactive Jupyter notebook.
 
 ### Running Jupyter locally.
 You can also start the Jupyterlab locally using [Docker](https://www.docker.com/).
 First, build the Docker container with
 ```
-docker build -t movesrwth/stormpy-starter .
+docker build -t stormchecker/stormpy-starter .
 ```
 Then start the Docker container with the following command:
 ```
-docker run -it --rm -p 8888:8888 movesrwth/stormpy-starter jupyter notebook --NotebookApp.default_url=/lab/ --ip=0.0.0.0 --port=8888
+docker run -it --rm -p 8888:8888 stormchecker/stormpy-starter jupyter notebook --NotebookApp.default_url=/lab/ --ip=0.0.0.0 --port=8888
 ```
 You can find the URL to the notebook in the output.
 

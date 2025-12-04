@@ -23,7 +23,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/moves-rwth/storm-project-starter-python"
+Homepage = "https://github.com/stormchecker/storm-project-starter-python"
 
 [project.optional-dependencies]
 dev = [
