@@ -4,7 +4,7 @@ Starter project for the Python API of Storm via Stormpy
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/stormchecker/storm-project-starter-python/master?filepath=stormpy_starter.ipynb)
 
 ## Getting started
-Before starting, make sure that Storm and stormpy are installed. If not, see the [documentation](https://moves-rwth.github.io/stormpy/installation.html) for details on how to install stormpy.
+Before starting, make sure that Storm and stormpy are installed. If not, see the [documentation](https://stormchecker.github.io/stormpy/installation.html) for details on how to install stormpy.
 
 First, install the Python package. If you use a virtual environment, make sure to use it.
 To install the starter package, execute
