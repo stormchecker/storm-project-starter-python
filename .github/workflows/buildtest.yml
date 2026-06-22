@@ -25,7 +25,7 @@ jobs:
           - {stormpyImg: "ci"}
     steps:
       - name: Git clone
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Build from Dockerfile
         run: docker build -t stormchecker/stormpy-starter . --build-arg STORMPY_BASE=movesrwth/stormpy:${{ matrix.config.stormpyImg }}
       - name: Run Docker
